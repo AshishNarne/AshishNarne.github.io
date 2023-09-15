@@ -1,0 +1,105 @@
+body{
+    background: rgb(58, 58, 58);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: royalblue;
+    
+}
+
+h2 {
+    color: rgb(26, 13, 83);
+    opacity: 0.7;
+}
+
+
+button {
+    background: rgb(142, 203, 233);
+    border: none;
+    color: black;
+}
+
+header {
+    background-color: black;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    background: white;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    background: black;
+    padding: 10px 20px;
+}
+
+div {
+    background: rgb(95, 151, 11);
+    margin: auto;
+    width: 100px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 3px;
+    padding: 2px;
+
+    margin-right: 20px;
+}
+
+li:first-child {
+    margin-left: 0;
+}
+
+li:hover{
+    background-color:darkseagreen
+}
+
+a {
+    text-decoration: none;
+}
+
+a.hover {
+    text-decoration: underline;
+}
+
+header .logo a {
+    background-image: url("images/logo.png");
+    background-size: 300px;
+    background-repeat:no-repeat;
+    display: inline-block;
+    height: 160px;
+    position: relative;
+    text-indent: -999999999px;
+    top: -30px;
+    width: 300px;
+}
