@@ -1,6 +1,6 @@
 body {
-    background: rgb(58, 58, 58);
-    color: white;
+    background: rgb(15, 15, 15); /* Very dark background */
+    color: rgb(230, 230, 230); /* Light text for contrast */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
@@ -9,18 +9,16 @@ body {
 h1 {
     color: royalblue;
     font-size: 2em;
-    margin-bottom: 0.5em;
 }
 
 h2 {
-    color: rgb(26, 13, 83);
-    opacity: 0.7;
+    color: rgb(135, 206, 250); /* Lighter shade for better visibility */
 }
 
 button {
-    background: rgb(142, 203, 233);
+    background: rgb(70, 130, 180); /* Darker button color */
     border: none;
-    color: black;
+    color: white; /* White text on buttons */
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: bold;
@@ -28,29 +26,32 @@ button {
 }
 
 header {
-    background-color: black;
-    height: 400px;
+    background-color: rgb(25, 25, 25); /* Slightly lighter than body for subtle contrast */
     padding: 20px;
     text-align: center;
 }
 
 section {
-    background: white;
-    color: gray;
+    background: rgb(30, 30, 30); /* Dark background for sections */
+    color: rgb(200, 200, 200); /* Lighter text for readability */
     padding: 20px;
     display: flex;
     flex-direction: row;
+    justify-content: space-around; /* Distribute space evenly */
 }
 
 footer {
-    background: black;
+    background: rgb(25, 25, 25); /* Consistent with the header */
     padding: 10px 20px;
+    color: rgb(180, 180, 180); /* Light grey text for visibility */
 }
 
 div {
-    background: rgb(95, 151, 11);
+    background: rgb(45, 45, 45); /* Dark background for divs */
     margin: auto;
-    width: 100px;
+    padding: 10px; /* Added padding for spacing */
+    color: white; /* White text for contrast */
+    border-radius: 5px; /* Rounded corners */
 }
 
 nav ul {
@@ -73,26 +74,25 @@ ul {
 li {
     display: inline-block;
     margin-left: 20px;
-    background-color: white;
+    background-color: rgb(40, 40, 40); /* Dark background for list items */
     border-radius: 3px;
     padding: 2px;
     margin-right: 20px;
+    color: white; /* White text for visibility */
 }
 
 li:first-child {
     margin-left: 0;
 }
 
-li:hover {
-    background-color: darkseagreen;
-}
-
 a {
     text-decoration: none;
+    color: rgb(135, 206, 250); /* Light blue for visibility */
 }
 
 a:hover {
     text-decoration: underline;
+    color: rgb(173, 216, 230); /* Slightly lighter on hover */
 }
 
 header .logo a {
