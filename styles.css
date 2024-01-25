@@ -105,7 +105,7 @@ header .logo a {
 }
 
 header .banner a {
-    background-image: url("images/banner.png");
+    background-image: url("banner.png");
     background-size: 1500px;
     background-repeat:no-repeat;
     display: inline-block;
