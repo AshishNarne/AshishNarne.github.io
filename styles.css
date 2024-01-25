@@ -1,104 +1,101 @@
-body {
-    background: rgb(15, 15, 15); /* Very dark background */
-    color: rgb(230, 230, 230); /* Light text for contrast */
+body{
+    background: rgb(20, 20, 20);
+    color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 h1 {
-    color: royalblue;
-    font-size: 2em;
+    color: rgb(70, 203, 243);
+    
 }
 
 h2 {
-    color: rgb(135, 206, 250); /* Lighter shade for better visibility */
+    color: rgb(70, 203, 243);
+    opacity: 0.7;
 }
 
+
 button {
-    background: rgb(70, 130, 180); /* Darker button color */
+    background: rgb(142, 203, 233);
     border: none;
-    color: white; /* White text on buttons */
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-weight: bold;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    color: rgb(20, 20, 20);
 }
 
 header {
-    background-color: rgb(25, 25, 25); /* Slightly lighter than body for subtle contrast */
+    background-color: rgb(20, 20, 20);
+    height: 330px;
     padding: 20px;
     text-align: center;
 }
 
 section {
-    background: rgb(30, 30, 30); /* Dark background for sections */
-    color: rgb(200, 200, 200); /* Lighter text for readability */
+    background: rgb(20, 20, 20);
+    color: rgb(255, 255, 255);
     padding: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around; /* Distribute space evenly */
 }
 
 footer {
-    background: rgb(25, 25, 25); /* Consistent with the header */
+    background: rgb(20, 20, 20);
     padding: 10px 20px;
-    color: rgb(180, 180, 180); /* Light grey text for visibility */
 }
 
 div {
-    background: rgb(45, 45, 45); /* Dark background for divs */
+    background: rgb(20, 20, 20);
     margin: auto;
-    padding: 10px; /* Added padding for spacing */
-    color: white; /* White text for contrast */
-    border-radius: 5px; /* Rounded corners */
+    width: 100px;
 }
 
-nav ul {
+nav ul{
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
 
-nav li {
+nav li{
     display: inline-block;
     margin-right: 20px;
 }
 
 ul {
     margin: 0;
-    padding: 0;
+    padding: 10 px;
     list-style-type: none;
 }
 
 li {
     display: inline-block;
     margin-left: 20px;
-    background-color: rgb(40, 40, 40); /* Dark background for list items */
+    background-color: rgb(20, 20, 20);
     border-radius: 3px;
     padding: 2px;
+
     margin-right: 20px;
-    color: white; /* White text for visibility */
 }
 
 li:first-child {
-    margin-left: 0;
+    margin-left: 20px;
+}
+
+li:hover{
+    background-color:rgb(82, 82, 82)
 }
 
 a {
     text-decoration: none;
-    color: rgb(135, 206, 250); /* Light blue for visibility */
 }
 
-a:hover {
+a.hover {
     text-decoration: underline;
-    color: rgb(173, 216, 230); /* Slightly lighter on hover */
 }
 
 header .logo a {
     background-image: url("images/logo.png");
     background-size: 300px;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     display: inline-block;
     height: 160px;
     position: relative;
@@ -106,3 +103,44 @@ header .logo a {
     top: -30px;
     width: 300px;
 }
+
+header .banner a {
+    background-image: url("images/banner.png");
+    background-size: 1500px;
+    background-repeat:no-repeat;
+    display: inline-block;
+    height: 900px;
+    position: center;
+    text-indent: -999999999px;
+    top: -30px;
+    width: 2000px;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #dd2095;
+    color: white;
+  }
+
+  .fa-google {
+    background: #000000;
+    color: white;
+  }
