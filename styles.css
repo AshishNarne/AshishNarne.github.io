@@ -93,7 +93,7 @@ a.hover {
 }
 
 header .logo a {
-    background-image: url("../logo.png");
+    background-image: url("logo.png");
     background-size: 300px;
     background-repeat:no-repeat;
     display: inline-block;
